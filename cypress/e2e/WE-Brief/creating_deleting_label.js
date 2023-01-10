@@ -7,7 +7,7 @@ describe("Login, Crete_delivery-Upload_doc(pdf), Logout", () => {
       cy.loginToEBrief();
     });
   }); 
-
+///eeee
  it('Switch to Labels page, from left sidebar, creating_deleting_label', () => {
   cy.visit('https://www.e-brief.at/fe_t/deliveries')
   cy.get('[routerlink="/settings/labels"] > #undefined > .mat-button-wrapper > .button-content-wrap').click()
